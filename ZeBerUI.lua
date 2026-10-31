@@ -14,7 +14,7 @@ local function track(conn)
     return conn
 end
 
-local OLD_UI_NAMES = {"frosty","frosty_Island","frosty_PrintUI","UI","UI","ExecutorUI_Main"}
+local OLD_UI_NAMES = {"frosty", "frosty_Island", "frosty_PrintUI", "ZeBerUI"}
 local function safeDestroy(obj) if obj then pcall(function() obj:Destroy() end) end end
 
 for _, v in ipairs(CoreGui:GetChildren()) do
